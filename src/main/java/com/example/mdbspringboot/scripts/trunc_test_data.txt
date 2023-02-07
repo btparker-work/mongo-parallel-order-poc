@@ -1,0 +1,4 @@
+db = connect("mongodb+srv://btparker:Passw0rd^1@cluster0.itynz.mongodb.net/?retryWrites=true&w=majority");
+use groceryorders
+db.GroceryOrder.remove({});
+db.GroceryOrderLog.remove({});
